@@ -1,11 +1,11 @@
-import logo from './Cipher Title and name.png';
+import title from './images/Cipher Title and name.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={title} className="App-title" alt="title" />
         <p>
           Site by Steven Smith
         </p>

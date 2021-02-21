@@ -1,4 +1,5 @@
 import './App.js';
+import './App.css';
 
 function App() {
     return (
@@ -6,7 +7,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Site by Steven Smith
+            CHOOSE YOUR DIFFICULTY
           </p>
           <a
             className="App-link"
@@ -14,7 +15,23 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            START
+            EASY
+          </a>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MEDIUM
+          </a>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HARD
           </a>
         </header>
       </div>
