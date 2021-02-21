@@ -1,4 +1,4 @@
-import logo from './titleTransparent.png';
+import logo from './Cipher Title and name.png';
 import './App.css';
 
 function App() {
