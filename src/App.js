@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="difficultyScreen.js"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >

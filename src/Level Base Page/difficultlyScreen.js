@@ -2,11 +2,9 @@ import '../App.js';
 import difficulty from './images/Difficulty.png';
 import './App.css';
 
-function App() {
+function difficultyScreen() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={difficulty} className="App-difficulty" alt="difficulty" />
+      <div className="difficultyScreen">
           <p>
             CHOOSE YOUR DIFFICULTY
           </p>
@@ -34,9 +32,8 @@ function App() {
           >
             HARD
           </a>
-        </header>
       </div>
     );
   }
   
-  export default App;
+  export default difficultyScreen;
