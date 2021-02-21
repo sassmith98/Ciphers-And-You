@@ -1,11 +1,12 @@
-import './App.js';
+import '../App.js';
+import difficulty from './images/Difficulty.png';
 import './App.css';
 
 function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={difficulty} className="App-difficulty" alt="difficulty" />
           <p>
             CHOOSE YOUR DIFFICULTY
           </p>
