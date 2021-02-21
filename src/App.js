@@ -1,4 +1,4 @@
-import title from './images/Cipher Title and name.png';
+import title from './images/Cipher-and-you-transparent.png';
 import './App.css';
 
 function App() {
