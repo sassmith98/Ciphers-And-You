@@ -1,4 +1,4 @@
-import title from './images/Cipher-and-you-transparent.png';
+import title from './images/Cipher-and-you-title-transparent.png';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={title} className="App-title" alt="title" />
         <p>
-          Site by Steven Smith
+          Click START to begin
         </p>
         <a
           className="App-link"
