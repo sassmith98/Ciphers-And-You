@@ -1,9 +1,11 @@
 import '../App.js';
+import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import difficulty from './images/Difficulty.png';
 import './App.css';
 
 function difficultyScreen() {
     return (
+      <Router>
       <div className="difficultyScreen">
           <p>
             CHOOSE YOUR DIFFICULTY
@@ -33,6 +35,7 @@ function difficultyScreen() {
             HARD
           </a>
       </div>
+      </Router>
     );
   }
   
