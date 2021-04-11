@@ -6,7 +6,7 @@ function aboutScreen() {
     return (
       <Router>
       <div className="aboutScreen">
-          
+            ABOUT
       </div>
       </Router>
     );
