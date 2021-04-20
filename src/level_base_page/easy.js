@@ -1,15 +1,18 @@
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
 import {easy_data} from './easy_data'
+import '../App.css';
 
 function Easy({name}){
 
   return(
     <Router>
       <Switch>
-        
+      
         <Route path="/easy" exact>
-          <Link to="/diff">DifficultyScreen</Link>
+        <div className="easy-page">
+         <Button><Link to="/diff">Choose Your Difficulty</Link></Button> 
             
             <h1>{name}</h1>
 
@@ -22,13 +25,14 @@ function Easy({name}){
                 )
             })}
 
-
+        </div>    
         </Route>
 
         <Route path="/diff" exact component={DifficultyScreen}/>
 
         
       </Switch>
+      
     </Router>
   )
 }

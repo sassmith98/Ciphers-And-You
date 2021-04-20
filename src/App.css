@@ -3,23 +3,95 @@
 }
 
 .App-title {
-  height: 50vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 .App-header {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(100px + 2vmin);
+  color: rgb(59, 56, 56);
+}
+
+.App-subheader {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 2vmin);
+  color: rgb(59, 56, 56);
+}
+
+.App-navigation {
   background-color: #be8509;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(50px + 2vmin);
+  color: rgb(59, 56, 56);
+}
+
+Button{
+  background-color: #949493;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(25px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
 .App-link {
   color: #3b3a3a;
+}
+
+.difficultyScreen {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(35px + 15vmin);
+  color: rgb(59, 56, 56);
+}
+
+.difficulty-button {
+  background-color: #be8509;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 2vmin);
+  color: rgb(59, 56, 56);
+}
+
+.easy-page {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 5vmin);
+  color: rgb(59, 56, 56);
 }
 
 @keyframes App-logo-spin {

@@ -1,6 +1,8 @@
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
 import {hard_data} from './hard_data'
+import '../App.css';
 
 function Hard({name}){
   return(
@@ -8,7 +10,7 @@ function Hard({name}){
       <Switch>
         
         <Route path="/hard" exact>
-          <Link to="/diff">DifficultyScreen</Link>
+        <Button><Link to="/diff">Choose Your Difficulty</Link></Button>  
           
           <h1>{name}</h1>
 
