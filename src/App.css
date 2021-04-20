@@ -94,6 +94,30 @@ Button{
   color: rgb(59, 56, 56);
 }
 
+.medium-page {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 5vmin);
+  color: rgb(59, 56, 56);
+}
+
+.hard-page {
+  background-color: #be8509;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 5vmin);
+  color: rgb(59, 56, 56);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
