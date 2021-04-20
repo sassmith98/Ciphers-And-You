@@ -10,6 +10,7 @@ function Hard({name}){
       <Switch>
         
         <Route path="/hard" exact>
+        <div className="hard-page">
         <Button><Link to="/diff">Choose Your Difficulty</Link></Button>  
           
           <h1>{name}</h1>
@@ -21,6 +22,7 @@ function Hard({name}){
                   </div>
                 )
             })}
+        </div>
         </Route>
 
         <Route path="/diff" exact component={DifficultyScreen}/>
