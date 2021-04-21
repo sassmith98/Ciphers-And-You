@@ -22,8 +22,8 @@ function App() {
           Site by Steven Smith
         </header>
         <nav className="App-navigation">
-              <Button><Link to="/diff">Choose Your Difficulty</Link></Button>
-              <Button><Link to="/about">About The Site</Link></Button>
+              <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>
+              <Button><Link to="/about" style={{ textDecoration: 'none' }}>About The Site</Link></Button>
         </nav>
         </Route>
 

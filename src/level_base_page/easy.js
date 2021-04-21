@@ -5,14 +5,13 @@ import {easy_data} from './easy_data'
 import '../App.css';
 
 function Easy({name}){
-
   return(
     <Router>
       <Switch>
-      
+
         <Route path="/easy" exact>
         <div className="easy-page">
-         <Button><Link to="/diff">Choose Your Difficulty</Link></Button> 
+        <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button> 
             
             <h1>{name}</h1>
 

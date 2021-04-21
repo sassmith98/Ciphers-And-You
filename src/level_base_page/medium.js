@@ -11,7 +11,7 @@ function Medium({name}){
         
         <Route path="/medium" exact>
 
-        <Button><Link to="/diff">Choose Your Difficulty</Link></Button>  
+        <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>  
 
           <h1>{name}</h1>
 

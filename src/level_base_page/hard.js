@@ -11,7 +11,7 @@ function Hard({name}){
         
         <Route path="/hard" exact>
         <div className="hard-page">
-        <Button><Link to="/diff">Choose Your Difficulty</Link></Button>  
+        <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>  
           
           <h1>{name}</h1>
 

@@ -9,6 +9,10 @@
 
 .App-header {
   background-color: #be8509;
+  border-style: solid;
+  padding: 10px;
+  background: #949493;
+  background-clip: padding-box;
   min-height: 5vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +25,10 @@
 
 .App-subheader {
   background-color: #be8509;
+  border-style: solid;
+  padding: 5px;
+  background: #949493;
+  background-clip: padding-box;
   min-height: 5vh;
   display: flex;
   flex-direction: column;

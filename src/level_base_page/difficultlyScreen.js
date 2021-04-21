@@ -15,16 +15,16 @@ function difficultyScreen() {
       <Router>
       <div className="difficultyScreen">
           <Switch>
-        <Route path="/diff" exact>
+        <Route path="/diff" style={{ textDecoration: 'none' }} exact>
           <p>
             CHOOSE YOUR DIFFICULTY
           </p>
            <nav>
             <div className="difficulty-button">
-              <Button><Link to="/" exact>HOME</Link></Button>
-              <Button><Link to="/easy">EASY</Link></Button>      
-              <Button><Link to="/medium">MEDIUM</Link></Button>      
-              <Button><Link to="/hard">HARD</Link></Button>      
+              <Button><Link to="/" style={{ textDecoration: 'none' }} exact>HOME</Link></Button>
+              <Button><Link to="/easy" style={{ textDecoration: 'none' }}>EASY</Link></Button>      
+              <Button><Link to="/medium" style={{ textDecoration: 'none' }}>MEDIUM</Link></Button>      
+              <Button><Link to="/hard" style={{ textDecoration: 'none' }}>HARD</Link></Button>      
              </div>
             </nav>
         </Route>
