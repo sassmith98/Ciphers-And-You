@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
-import {medium_data} from './medium_data'
+import {mediumData} from './mediumData'
 import '../App.css';
 
 function Medium({name}){
@@ -15,7 +15,7 @@ function Medium({name}){
 
           <h1>{name}</h1>
 
-          {medium_data.map((data, key) => {
+          {mediumData.map((data, key) => {
               return(
                 <div key={key}>
                   <h2>{data.val}</h2>

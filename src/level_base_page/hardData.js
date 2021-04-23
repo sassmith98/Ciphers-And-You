@@ -1,4 +1,4 @@
-export const hard_data = 
+export const hardData = 
 [
   {
     'val' : '1st hard task'
@@ -10,6 +10,14 @@ export const hard_data =
 
   {
     'val' : '3rd hard task'
+  },
+
+  {
+    'val' : '3rd easy task'
+  },
+
+  {
+    'val' : '3rd easy task'
   },
   
 ]

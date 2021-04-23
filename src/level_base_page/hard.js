@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
-import {hard_data} from './hard_data'
+import {hardData} from './hardData'
 import '../App.css';
 
 function Hard({name}){
@@ -15,7 +15,7 @@ function Hard({name}){
           
           <h1>{name}</h1>
 
-            {hard_data.map((data, key) => {
+            {hardData.map((data, key) => {
                 return(
                   <div key={key}>
                     <h2>{data.val}</h2>

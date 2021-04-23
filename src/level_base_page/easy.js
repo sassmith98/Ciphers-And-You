@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
-import {easy_data} from './easy_data'
+import {easyData} from './easyData'
 import '../App.css';
 
 function Easy({name}){
@@ -16,7 +16,7 @@ function Easy({name}){
             <h1>{name}</h1>
 
             {/* map method to iterate over the data & map them inside div element */}
-            {easy_data.map((data, key) => {
+            {easyData.map((data, key) => {
                 return(
                   <div key={key}>
                     <h2>{data.val}</h2>

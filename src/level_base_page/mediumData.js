@@ -1,4 +1,4 @@
-export const medium_data = 
+export const mediumData = 
 [
   {
     'val' : '1st medium task'
@@ -11,5 +11,9 @@ export const medium_data =
   {
     'val' : '3rd medium task'
   },
-  
+
+  {
+    'val' : '3rd easy task'
+  },
+
 ]
