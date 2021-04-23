@@ -1,15 +1,20 @@
+
+
 export const easyData = 
 [
   {
-    'val' : '1st easy task'
+    'val' : 'LEVEL YSAE EHT SI SIHT'
+    //Transposition Cipher
   },  
   
   {
-    'val' : '2nd easy task'
+    'val' : 'pigpen_cipher'
+    //Pigpen
   },
 
   {
-    'val' : '3rd easy task'
+    'val' : 'KVTU UIF TUBSU PG UIF GVO'
+    //Caesar Shift, key of 1
   },
   
 ]

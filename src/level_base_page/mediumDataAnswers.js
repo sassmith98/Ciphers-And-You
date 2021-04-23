@@ -1,19 +1,15 @@
 export const mediumDataAnswers = 
 [
   {
-    'val' : '1st easy task'
+    'val' : 'here we go into the medium ciphers'
   },  
   
   {
-    'val' : '2nd easy task'
+    'val' : 'ciphers are interesting to learn about'
   },
 
   {
-    'val' : '3rd easy task'
-  },
-
-  {
-    'val' : '3rd easy task'
+    'val' : 'you have a large brain'
   },
 
 ]

@@ -1,23 +1,15 @@
 export const hardDataAnswers = 
 [
   {
-    'val' : '1st easy task'
+    'val' : 'something new to play with'
   },  
   
   {
-    'val' : '2nd easy task'
+    'val' : 'senior projects are cool'
   },
 
   {
-    'val' : '3rd easy task'
+    'val' : 'hope you had fun playing'
   },
 
-  {
-    'val' : '3rd easy task'
-  },
-
-  {
-    'val' : '3rd easy task'
-  },
-  
 ]

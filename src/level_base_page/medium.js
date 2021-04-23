@@ -10,7 +10,7 @@ function Medium({name}){
       <Switch>
         
         <Route path="/medium" exact>
-
+        <div className="medium-page">
         <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>  
 
           <h1>{name}</h1>
@@ -22,7 +22,7 @@ function Medium({name}){
                 </div>
               )
           })}
-         
+        </div>
         </Route>
 
         <Route path="/diff" exact component={DifficultyScreen}/>

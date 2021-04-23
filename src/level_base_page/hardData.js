@@ -1,23 +1,18 @@
 export const hardData = 
 [
   {
-    'val' : '1st hard task'
+    'val' : 'NCHSOVDBB BZK OC KZVM RWOV'
+    //Vigenegravere, key of vo
   },  
   
   {
-    'val' : '2nd hard task'
+    'val' : 'XYIASE XFFYVQCW CKW CFSN'
+    //Autokey, key of fuv
   },
 
   {
-    'val' : '3rd hard task'
-  },
-
-  {
-    'val' : '3rd easy task'
-  },
-
-  {
-    'val' : '3rd easy task'
+    'val' : '13143132 111415 134122 421521 31434111232152'
+    //Polybius Square, key of ynp 
   },
   
 ]

@@ -1,15 +1,15 @@
 export const easyDataAnswers = 
 [
   {
-    'val' : '1st easy task'
+    'val' : 'this is the easy level'
   },  
   
   {
-    'val' : '2nd easy task'
+    'val' : 'this will only get harder'
   },
 
   {
-    'val' : '3rd easy task'
+    'val' : 'just the start of the fun'
   },
   
 ]

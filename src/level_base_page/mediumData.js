@@ -1,19 +1,18 @@
 export const mediumData = 
 [
   {
-    'val' : '1st medium task'
+    'val' : 'EHRWEEOGITNOHTEEMDUIMICPEHRS'
+    //Permutation, key of faq
   },  
   
   {
-    'val' : '2nd medium task'
+    'val' : 'XRKSVIH ZIV RMGVIVHGRMT GL OVZIM ZYLFG'
+    //Atbash
   },
 
   {
-    'val' : '3rd medium task'
-  },
-
-  {
-    'val' : '3rd easy task'
+    'val' : 'YH A IO AEALREBANUV GR'
+    //Rail Fence, key of 3
   },
 
 ]

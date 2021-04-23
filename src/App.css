@@ -1,12 +1,10 @@
-
-
 .aboutScreenTextOne {
   background-color: #be8509;
   min-height: 25vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 1vmin);
+  font-size: calc(25px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -35,7 +33,7 @@
 }
 
 .App-title {
-  height: 25vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -45,13 +43,13 @@
   padding: 10px;
   background: #949493;
   background-clip: padding-box;
-  min-height: 5vh;
+  min-height: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(100px + 2vmin);
+  font-size: calc(100px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -67,18 +65,18 @@
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 2vmin);
+  font-size: calc(50px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
 .App-navigation {
   background-color: #be8509;
-  min-height: 100vh;
+  min-height: 74vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(50px + 2vmin);
+  font-size: calc(50px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -130,7 +128,7 @@ Button{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 5vmin);
+  font-size: calc(30px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -142,7 +140,7 @@ Button{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 5vmin);
+  font-size: calc(30px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -154,7 +152,7 @@ Button{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 5vmin);
+  font-size: calc(30px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
