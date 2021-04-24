@@ -1,17 +1,17 @@
 export const mediumData = 
 [
   {
-    'val' : 'EHRWEEOGITNOHTEEMDUIMICPEHRS'
+    'val' : 'Level 1: EHRWEEOGITNOHTEEMDUIMICPEHRS'
     //Permutation, key of faq
   },  
   
   {
-    'val' : 'XRKSVIH ZIV RMGVIVHGRMT GL OVZIM ZYLFG'
+    'val' : 'Level 2: XRKSVIH ZIV RMGVIVHGRMT GL OVZIM ZYLFG'
     //Atbash
   },
 
   {
-    'val' : 'YH A IO AEALREBANUV GR'
+    'val' : 'Level 3: YH A IO AEALREBANUV GR'
     //Rail Fence, key of 3
   },
 

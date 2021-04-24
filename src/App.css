@@ -1,30 +1,30 @@
 .aboutScreenTextOne {
   background-color: #be8509;
-  min-height: 25vh;
+  min-height: 23vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 2vmin);
+  font-size: calc(23.5px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
 .aboutScreenTextTwo {
   background-color: #be8509;
-  min-height: 25vh;
+  min-height: 23vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 1vmin);
+  font-size: calc(23.5px + 1vmin);
   color: rgb(59, 56, 56);
 } 
 
 .aboutScreenTextThree {
   background-color: #be8509;
-  min-height: 25vh;
+  min-height: 23vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 1vmin);
+  font-size: calc(23.5px + 1vmin);
   color: rgb(59, 56, 56);
 } 
 
@@ -71,7 +71,7 @@
 
 .App-navigation {
   background-color: #be8509;
-  min-height: 74vh;
+  min-height: 74.25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,25 +98,25 @@ Button{
 
 .difficultyScreen {
   background-color: #be8509;
-  min-height: 5vh;
+  min-height: 1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(35px + 15vmin);
+  font-size: calc(54px + 13vmin);
   color: rgb(59, 56, 56);
 }
 
 .difficulty-button {
   background-color: #be8509;
-  min-height: 10vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: right;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 2vmin);
+  font-size: calc(25px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -161,6 +161,11 @@ Button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(30px + 2vmin);
 }
 
 @keyframes App-logo-spin {

@@ -1,4 +1,3 @@
-import title from './images/Cipher-and-you-title-transparent.png';
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import './App.css';
@@ -15,16 +14,16 @@ function App() {
 
         {/* Everything you want to render in '/' path */}
         <Route path="/" exact>
-        <header className="App-header">
-          CIPHERS AND YOU!
-        </header>
-        <header className="App-subheader">
-          Site by Steven Smith
-        </header>
-        <nav className="App-navigation">
+          <header className="App-header">
+            CIPHERS AND YOU!
+          </header>
+          <header className="App-subheader">
+            Site by Steven Smith
+          </header>
+            <nav className="App-navigation">
               <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>
               <Button><Link to="/about" style={{ textDecoration: 'none' }}>About The Site</Link></Button>
-        </nav>
+            </nav>
         </Route>
 
           {/* component you want to render in '/diff' path */}
