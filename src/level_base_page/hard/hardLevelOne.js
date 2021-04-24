@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import difficultyScreen from './level_base_page/difficultlyScreen';
 
-function easyLevelOne() {
+function hardLevelOne() {
     <Router>
         <div className="hard-level">
             <h1>Hard</h1>
