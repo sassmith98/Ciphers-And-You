@@ -16,9 +16,9 @@ function difficultyScreen() {
       <div className="difficultyScreen">
           <Switch>
         <Route path="/diff" style={{ textDecoration: 'none' }} exact>
-          <p>
+          <h1>
             CHOOSE YOUR DIFFICULTY
-          </p>
+          </h1>
            <nav>
             <div className="difficulty-button">
               <Button><Link to="/" style={{ textDecoration: 'none' }} exact>HOME</Link></Button>
