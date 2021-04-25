@@ -1,7 +1,7 @@
 import Image1 from "../images/atbash_help.png"
 import Image2 from "../images/pigpen_cipher.png"
-import Image3 from "../images/Ciphers and you.png"
-
+import Image3 from "../images/polybius_square_grid.png"
+import Image4 from "../images/polybius_square_keyword_help.png"
 
 export const hardData = 
 [
@@ -20,7 +20,8 @@ export const hardData =
 
   {
     'val' : 'Level 3: 13143132 111415 134122 421521 31434111232152',
-    img : Image3
+    img : Image3, Image4
+
     //Polybius Square, key of ynp 
   },
   

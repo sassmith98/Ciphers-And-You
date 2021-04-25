@@ -1,6 +1,6 @@
-import Image1 from "../images/atbash_help.png"
+import Image1 from "../images/Difficulty.png"
 import Image2 from "../images/pigpen_cipher.png"
-import Image3 from "../images/Ciphers and you.png"
+import Image3 from "../images/caesar_shift_help.png"
 
 
 export const easyData = 

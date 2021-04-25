@@ -39,11 +39,11 @@ function Hard({name}){
                     }} className="textField" />
                     <button className="btn-css" onClick={() => {
                       if(data.ans && hardDataAnswers[key].val === data.ans){
-                        alert("You got the answer Right")
+                        alert("You got the answer right")
                       }else {
-                        alert("You got the answer Wrong")
+                        alert("You got the answer wrong")
                       }
-                    }}>Check Answer</button>
+                    }}>Check Answer (Lowercase only)</button>
                     {data.hasOwnProperty('show') && data["show"] &&<Popup image={data.img} closePopup={() => openClosepopUp(key ,false)} />}
                     <a href="javaScript:void(0)" onClick={() => openClosepopUp(key)}>?</a>
                   </div>
