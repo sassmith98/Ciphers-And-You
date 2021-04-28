@@ -24,7 +24,6 @@ function aboutScreen() {
            </div>
                <p> Thanks for looking through the site</p>
                <p> And hopefully it was good!</p>
-           
       </div>
 
       </Router>

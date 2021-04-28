@@ -1,8 +1,8 @@
 .aboutScreenTextOne {
   background-color: #be8509;
-  min-height: fit-content;
+  min-height: 80px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + .5vmin);
+  font-size: calc(25px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -23,7 +23,9 @@
 
 a {
   color: rgb(59, 56, 56);
+  font-size: calc(20px + 1vmin);
 }
+
 a:hover {
    color: rgb(192, 118, 7)
 }
@@ -98,9 +100,19 @@ a:hover {
   color: rgb(59, 56, 56);
 }
 
+.btn-css{
+  background-color: #949493;
+  min-height: 7vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: rgb(59, 56, 56);
+  display: inline-block;
+}
+
 Button{
   background-color: #949493;
-  min-height: 10vh;
+  min-height: 7vh;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -118,7 +130,7 @@ Button{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: rgb(59, 56, 56);
   display: inline-block;
 }
@@ -129,10 +141,11 @@ Button{
 
 .difficultyScreen {
   background-color: #be8509;
+  min-height: 125px;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(25px + 2vmin);
+  font-size: calc(40px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
@@ -200,12 +213,16 @@ h1{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(100px + 2vmin);
+  font-size: calc(50px + 2vmin);
   color: rgb(59, 56, 56);
 }
 
 h2{
   background-color: #be8509;
+  border-style: solid;
+  padding: 5px;
+  background: #949493;
+  background-clip: padding-box;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
   color: rgb(59, 56, 56);
@@ -213,19 +230,17 @@ h2{
 
 h3{
   background-color: #be8509;
-  min-height: 77.5vh;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
   color: rgb(59, 56, 56);
 }
 
-.textBox{
+.textField{
   margin: auto;
-  padding:100px;
-  height: 300px;
+  height: 15px;
   text-align: center;
-  padding: 20px;
-  width: 400px;
+  padding: 10px 0px;
+  width: 300px;
 }
 
 

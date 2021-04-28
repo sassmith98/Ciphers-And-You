@@ -29,7 +29,6 @@ function Hard({name}){
                 return(
                   <div key={key}>
                     <h2>{data.val}</h2>
-                    <div className="textBox">
                     <input onChange={(e) => {
                       let questionsArr = [...questions];
                       questionsArr[key]["ans"] = e.target.value
@@ -41,7 +40,7 @@ function Hard({name}){
                         </p>
                     <button className="btn-css" onClick={() => {
                       if(data.ans && hardDataAnswers[key].val === data.ans){
-                        alert("You got the answer right")
+                        alert("You got the answer right!")
                       }else {
                         alert("You got the answer wrong")
                       }
@@ -50,8 +49,7 @@ function Hard({name}){
                         
                         </p>
                     {data.hasOwnProperty('show') && data["show"] &&<Popup image={data.img} closePopup={() => openClosepopUp(key ,false)} />}
-                    <a href="javaScript:void(0)" style={{ textDecoration: 'none' }} onClick={() => openClosepopUp(key)}>?</a>
-                  </div>
+                    <a href="javaScript:void(0)" style={{ textDecoration: 'none' }} onClick={() => openClosepopUp(key)}>Need Some Help?</a>
                   </div>
                 )
             })}
