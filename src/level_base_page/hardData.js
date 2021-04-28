@@ -20,7 +20,7 @@ export const hardData =
 
   {
     'val' : 'Level 3: 13143132 111415 134122 421521 31434111232152',
-    img : Image3, Image4
+    img : Image3
 
     //Polybius Square, key of ynp 
   },

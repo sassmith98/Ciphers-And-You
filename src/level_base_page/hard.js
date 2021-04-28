@@ -14,7 +14,6 @@ function Hard({name}){
     let questionsArr = [...questions];
     questionsArr[index]["show"] = status
     setQuestions(questionsArr)
-
   }
 
   return(
@@ -22,7 +21,6 @@ function Hard({name}){
       <Switch>
         
         <Route path="/hard" exact>
-        <div className="hard-page">
         <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>  
           
         <h1>{name}</h1>
@@ -31,12 +29,16 @@ function Hard({name}){
                 return(
                   <div key={key}>
                     <h2>{data.val}</h2>
+                    <div className="textBox">
                     <input onChange={(e) => {
                       let questionsArr = [...questions];
                       questionsArr[key]["ans"] = e.target.value
                       setQuestions(questionsArr)
 
                     }} className="textField" />
+                     <p>
+                        
+                        </p>
                     <button className="btn-css" onClick={() => {
                       if(data.ans && hardDataAnswers[key].val === data.ans){
                         alert("You got the answer right")
@@ -44,13 +46,15 @@ function Hard({name}){
                         alert("You got the answer wrong")
                       }
                     }}>Check Answer (Lowercase only)</button>
+                     <p>
+                        
+                        </p>
                     {data.hasOwnProperty('show') && data["show"] &&<Popup image={data.img} closePopup={() => openClosepopUp(key ,false)} />}
-                    <a href="javaScript:void(0)" onClick={() => openClosepopUp(key)}>?</a>
+                    <a href="javaScript:void(0)" style={{ textDecoration: 'none' }} onClick={() => openClosepopUp(key)}>?</a>
+                  </div>
                   </div>
                 )
             })}
-
-        </div>  
         </Route>
 
         <Route path="/diff" exact component={DifficultyScreen}/>

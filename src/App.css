@@ -21,6 +21,13 @@
   background: #949493;
 }
 
+a {
+  color: rgb(59, 56, 56);
+}
+a:hover {
+   color: rgb(192, 118, 7)
+}
+
 .aboutScreenTextTwo {
   background-color: #be8509;
   min-height: 23vh;
@@ -103,13 +110,25 @@ Button{
   display: inline-block;
 }
 
+
+.checkAnswerButton{
+  background-color: #949493;
+  min-height: 10vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(25px + 2vmin);
+  color: rgb(59, 56, 56);
+  display: inline-block;
+}
+
 .App-link {
   color: #3b3a3a;
 }
 
 .difficultyScreen {
   background-color: #be8509;
-  background-size: auto;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -168,12 +187,12 @@ Button{
   justify-content: center;
 }
 
-.p{
+p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(30px + 2vmin);
 }
 
-.h1{
+h1{
   background-color: #be8509;
   min-height: 5vh;
   display: flex;
@@ -181,8 +200,32 @@ Button{
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(100px + 2vmin);
   color: rgb(59, 56, 56);
+}
+
+h2{
+  background-color: #be8509;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 1vmin);
+  color: rgb(59, 56, 56);
+}
+
+h3{
+  background-color: #be8509;
+  min-height: 77.5vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(50px + 1vmin);
+  color: rgb(59, 56, 56);
+}
+
+.textBox{
+  margin: auto;
+  padding:100px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
 }
 
 
