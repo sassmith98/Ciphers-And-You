@@ -1,6 +1,6 @@
-import Image1 from "../images/atbash_help.png"
-import Image2 from "../images/pigpen_cipher.png"
-import Image3 from "../images/Ciphers and you.png"
+import Image1 from "../images/permutationCipherHelp.png"
+import Image2 from "../images/atbashCipherHelp.png"
+import Image3 from "../images/railfenceCipherHelp.png"
 
 
 export const mediumData = 

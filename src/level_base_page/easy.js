@@ -25,7 +25,7 @@ function Easy({name}){
         <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button> 
             
             <h1>{name}</h1>
-            {/* map method to iterate over the data & map them inside div element */}
+            {/* Map to iterate over the data & map them inside div element */}
             {questions.map((data, key) => {
                 return(
                   <div key={key}>
@@ -49,7 +49,7 @@ function Easy({name}){
                     <p>
                         
                         </p>
-                    {data.hasOwnProperty('show') && data["show"] &&<Popup image={data.img} text={data.val} closePopup={() => openClosepopUp(key ,false)} />}
+                    {data.hasOwnProperty('show') && data["show"] &&<Popup image={data.img} closePopup={() => openClosepopUp(key ,false)} />}
                     <a href="javaScript:void(0)" style={{ textDecoration: 'none' }} onClick={() => openClosepopUp(key)}>Need Some Help?</a>
                   </div>
                 )

@@ -10,6 +10,14 @@
     height: 100vh;
   } */
 
+  img {
+    height: 400px;
+ }
+ 
+ img {
+   height: 100%;
+   width: auto;
+ }
 
   .popup {
     position: fixed;
@@ -30,10 +38,10 @@
     bottom: 25%;
     margin: auto;
     background: #949493;
-    height: 500px;
+    height: 700px;
     text-align: center;
-    padding: 20px;
-    width: 600px;
+    padding: 2px;
+    width: 800px;
   }
 
 .close {

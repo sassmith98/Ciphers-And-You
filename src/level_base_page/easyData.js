@@ -1,6 +1,6 @@
-import Image1 from "../images/Difficulty.png"
-import Image2 from "../images/pigpen_cipher.png"
-import Image3 from "../images/caesar_shift_help.png"
+import Image1 from "../images/transpositionTextHelp.png"
+import Image2 from "../images/pigpenCipherHelp.png"
+import Image3 from "../images/caesarCipherHelp.png"
 
 
 export const easyData = 
@@ -12,7 +12,7 @@ export const easyData =
   },  
   
   {
-    'val' : 'Level 2: pigpen_cipher',
+    'val' : 'Level 2: Check Hint for Cipher',
     img : Image2
     //Pigpen
   },

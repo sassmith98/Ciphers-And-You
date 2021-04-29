@@ -1,7 +1,6 @@
-import Image1 from "../images/atbash_help.png"
-import Image2 from "../images/pigpen_cipher.png"
-import Image3 from "../images/polybius_square_grid.png"
-import Image4 from "../images/polybius_square_keyword_help.png"
+import Image1 from "../images/vigenereCipherHelp.png"
+import Image2 from "../images/autokeyCipherHelp.png"
+import Image3 from "../images/polybiusSquareCipherHelp.png"
 
 export const hardData = 
 [
@@ -13,9 +12,9 @@ export const hardData =
   },  
   
   {
-    'val' : 'Level 2: XYIASE XFFYVQCW CKW CFSN',
+    'val' : 'Level 2: XOMLMJ EOMGUJPT WUW GBWZ',
     img : Image2
-    //Autokey, key of fuv
+    //Autokey, key of fkzdyspxyxqhwbwd
   },
 
   {
