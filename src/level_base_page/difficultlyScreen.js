@@ -13,19 +13,17 @@ import Hard from './hard'
 function difficultyScreen() {
     return (
       <Router>
-      <div className="difficultyScreen">
           <Switch>
         <Route path="/diff" style={{ textDecoration: 'none' }} exact>
-          <h3>
-            CHOOSE YOUR DIFFICULTY
-            <p> </p>
-            <nav>
-              <Button><Link to="/" style={{ textDecoration: 'none' }} exact>HOME</Link></Button> <p> </p>
-              <Button><Link to="/easy" style={{ textDecoration: 'none' }}>EASY</Link></Button>  <p> </p>     
-              <Button><Link to="/medium" style={{ textDecoration: 'none' }}>MEDIUM</Link></Button> <p> </p>     
-              <Button><Link to="/hard" style={{ textDecoration: 'none' }}>HARD</Link></Button> <p> </p>     
-            </nav>
-            </h3>
+          <h4>
+              CHOOSE YOUR DIFFICULTY    
+          </h4> <p></p>
+            <nav> <p></p>
+              <Button><Link to="/easy" style={{ textDecoration: 'none' }}>EASY</Link></Button>    
+              <Button><Link to="/medium" style={{ textDecoration: 'none' }}>MEDIUM</Link></Button>      
+              <Button><Link to="/hard" style={{ textDecoration: 'none' }}>HARD</Link></Button>  <p> </p>
+            </nav> <p></p>
+              <Button><Link to="/" style={{ textDecoration: 'none' }} exact>HOME</Link></Button> <p> </p> 
         </Route>
 
         <Route path="/" component={App} exact/>
@@ -55,9 +53,6 @@ function difficultyScreen() {
           exact
         />
         </Switch>
-      </div>
-
-      
       </Router>
     );
   }

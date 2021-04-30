@@ -8,18 +8,17 @@ function App() {
   return (
     <Router>
       <div className="App">
-
       {/* Pages you want to switch between acc to the path */}
       <Switch>
 
         {/* Everything you want to render in '/' path */}
-        <Route path="/" exact>
+        <Route path="/" exact> <p></p>
           <header className="App-header">
             CIPHERS AND YOU!
-          </header>
+          </header> <p></p>
           <header className="App-subheader">
-            Site by Steven Smith
-          </header>
+            App by Steven Smith
+          </header> <p></p>
             <nav className="App-navigation">
               <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button>
               <p>

@@ -1,4 +1,23 @@
 .aboutScreenTextOne {
+  background-color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(25px + 1vmin);
+  color: rgb(150, 180, 236);
+}
+
+.aboutHeadersOne{
+  background: #03738f;
+}
+
+.aboutHeadersTwo{
+  background: #03738f;
+}
+
+.aboutHeadersThree{
+  background: #03738f;
+}
+
+.alert{
   background-color: #be8509;
   min-height: 80px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -6,48 +25,33 @@
   color: rgb(59, 56, 56);
 }
 
-.aboutHeadersOne{
-  border-style: solid;
-  background: #949493;
-}
-
-.aboutHeadersTwo{
-  border-style: solid;
-  background: #949493;
-}
-
-.aboutHeadersThree{
-  border-style: solid;
-  background: #949493;
-}
-
 a {
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
   font-size: calc(20px + 1vmin);
 }
 
 a:hover {
-   color: rgb(192, 118, 7)
+   color: rgb(0, 0, 0)
 }
 
 .aboutScreenTextTwo {
-  background-color: #be8509;
+  background-color: #ffffff;
   min-height: 23vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(23.5px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 } 
 
 .aboutScreenTextThree {
-  background-color: #be8509;
+  background-color: #ffffff;
   min-height: 23vh;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(23.5px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 } 
 
 .App {
@@ -57,12 +61,16 @@ a:hover {
 .App-title {
   height: 10vmin;
   pointer-events: none;
+  display: inline-block;
 }
 
 .App-header {
-  background-color: #be8509;
+  background-color: #03738f;
   border-style: solid;
+  opacity: .8;
   padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
   background: #949493;
   background-clip: padding-box;
   flex-direction: column;
@@ -70,34 +78,49 @@ a:hover {
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(100px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 }
 
 .App-subheader {
-  background-color: #be8509;
+  background-color: #03738f;
   border-style: solid;
+  opacity: .8;
   padding: 5px;
+  border-radius: 8px;
   background: #949493;
   background-clip: padding-box;
+  display: inline-block;
   min-height: 5vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 }
 
 .App-navigation {
-  background-color: #be8509;
-  min-height: 74.25vh;
+  background-color: #ffffff;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(50px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
+}
+
+div{
+  border-style: solid;
+  border-radius: 8px;
+  padding: 0px;
+  background: #03738f;
+}
+
+nav{
+  background-color: #03738f;
+  display: inline-block;
+  
 }
 
 .btn-css{
@@ -111,8 +134,16 @@ a:hover {
 
 Button{
   background-color: #949493;
-  min-height: 7vh;
+  min-height: 5vh;
+  border-radius: 8px;
   display: flex;
+  opacity: .6;
+  padding: 10px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -125,6 +156,7 @@ Button{
 
 .checkAnswerButton{
   background-color: #949493;
+  opacity: .8;
   min-height: 10vh;
   flex-direction: column;
   align-items: center;
@@ -135,13 +167,17 @@ Button{
   display: inline-block;
 }
 
+.checkAnswerButton:hover{
+  color: rgb(0, 0, 0)
+}
+
 .App-link {
   color: #3b3a3a;
 }
 
 .difficultyScreen {
   background-color: #be8509;
-  min-height: 125px;
+  min-height: 62px;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -206,40 +242,65 @@ p{
 }
 
 h1{
-  background-color: #be8509;
-  min-height: 5vh;
-  display: flex;
+  background-color: #03738f;
+  border-style: solid;
+  border-radius: 8px;
+  background: #949493;
+  padding: 5px;
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 2vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 }
 
 h2{
-  background-color: #be8509;
+  background-color: #686767;
   border-style: solid;
-  padding: 5px;
+  border-radius: 8px;
   background: #949493;
+  padding: 5px;
+  display: inline-block;
   background-clip: padding-box;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(150, 180, 236);
 }
 
 h3{
-  background-color: #be8509;
+  background-color: #03738f;
+  border-style: solid;
+  border-radius: 8px;
+  background: #949493;
+  opacity: .8;
+  padding: 15px;
+  display: inline-block;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 1vmin);
-  color: rgb(59, 56, 56);
+  font-size: calc(90px);
+  color: rgb(150, 180, 236);
+}
+
+h4{
+  background-color: #03738f;
+  border-style: solid;
+  border-radius: 20px;
+  background: #949493;
+  opacity: .6;
+  padding: 50px;
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(80px + 1.5vh);
+  color: rgb(150, 180, 236);
 }
 
 .textField{
   margin: auto;
-  height: 15px;
+  height: 30px;
   text-align: center;
   padding: 10px 0px;
+  border-radius: 8px;
   width: 300px;
 }
 
