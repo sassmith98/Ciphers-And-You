@@ -2,7 +2,7 @@
   background-color: #ffffff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(25px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 .aboutHeadersOne{
@@ -26,12 +26,12 @@
 }
 
 a {
-  color: rgb(150, 180, 236);
+  color: rgb(0, 0, 0);
   font-size: calc(20px + 1vmin);
 }
 
 a:hover {
-   color: rgb(0, 0, 0)
+  color: rgb(7, 72, 194);
 }
 
 .aboutScreenTextTwo {
@@ -41,7 +41,7 @@ a:hover {
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(23.5px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 } 
 
 .aboutScreenTextThree {
@@ -71,14 +71,14 @@ a:hover {
   padding: 10px;
   border-radius: 8px;
   display: inline-block;
-  background: #949493;
+  background: #ffffff;
   background-clip: padding-box;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(100px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 .App-subheader {
@@ -87,7 +87,7 @@ a:hover {
   opacity: .8;
   padding: 5px;
   border-radius: 8px;
-  background: #949493;
+  background: #ffffff;
   background-clip: padding-box;
   display: inline-block;
   min-height: 5vh;
@@ -96,18 +96,18 @@ a:hover {
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 .App-navigation {
   background-color: #ffffff;
-  min-height: 50vh;
+  min-height: 56.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(50px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 div{
@@ -128,7 +128,7 @@ nav{
   min-height: 7vh;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(10px + 2vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(0, 0, 0);
   display: inline-block;
 }
 
@@ -149,13 +149,13 @@ Button{
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(25px + 2vmin);
-  color: rgb(59, 56, 56);
+  color: rgb(0, 0, 0);
   display: inline-block;
 }
 
 
 .checkAnswerButton{
-  background-color: #949493;
+  background-color: #ffffff;
   opacity: .8;
   min-height: 10vh;
   flex-direction: column;
@@ -245,7 +245,7 @@ h1{
   background-color: #03738f;
   border-style: solid;
   border-radius: 8px;
-  background: #949493;
+  background: #ffffff;
   padding: 5px;
   display: inline-block;
   flex-direction: column;
@@ -253,46 +253,46 @@ h1{
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 2vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 h2{
   background-color: #686767;
   border-style: solid;
   border-radius: 8px;
-  background: #949493;
+  background: #ffffff;
   padding: 5px;
   display: inline-block;
   background-clip: padding-box;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(50px + 1vmin);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 h3{
   background-color: #03738f;
   border-style: solid;
   border-radius: 8px;
-  background: #949493;
+  background: #ffffff;
   opacity: .8;
   padding: 15px;
   display: inline-block;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: calc(90px);
-  color: rgb(150, 180, 236);
+  color: rgb(7, 72, 194);
 }
 
 h4{
   background-color: #03738f;
   border-style: solid;
   border-radius: 20px;
-  background: #949493;
-  opacity: .6;
+  background: #ffffff;
+  opacity: .8;
   padding: 50px;
   display: inline-block;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(80px + 1.5vh);
-  color: rgb(150, 180, 236);
+  font-size: calc(80px + 2.77vh);
+  color: rgb(7, 72, 194);
 }
 
 .textField{

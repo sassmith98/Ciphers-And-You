@@ -8,6 +8,7 @@ import '../App.css';
 import Easy from './easy'
 import Medium from './medium'
 import Hard from './hard'
+import Test from './testPage'
 
 
 function difficultyScreen() {
@@ -21,9 +22,11 @@ function difficultyScreen() {
             <nav> <p></p>
               <Button><Link to="/easy" style={{ textDecoration: 'none' }}>EASY</Link></Button>    
               <Button><Link to="/medium" style={{ textDecoration: 'none' }}>MEDIUM</Link></Button>      
-              <Button><Link to="/hard" style={{ textDecoration: 'none' }}>HARD</Link></Button>  <p> </p>
+              <Button><Link to="/hard" style={{ textDecoration: 'none' }}>HARD</Link></Button> 
+              <Button><Link to="/test" style={{ textDecoration: 'none' }}>Test</Link></Button> <p> </p>
             </nav> <p></p>
               <Button><Link to="/" style={{ textDecoration: 'none' }} exact>HOME</Link></Button> <p> </p> 
+              
         </Route>
 
         <Route path="/" component={App} exact/>
@@ -52,6 +55,15 @@ function difficultyScreen() {
           )}
           exact
         />
+
+        <Route
+          path='/test'
+          render={(props) => (
+            <Test {...props} name={"Test Level"} />
+          )}
+          exact
+        />
+
         </Switch>
       </Router>
     );

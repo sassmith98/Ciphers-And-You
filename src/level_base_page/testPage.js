@@ -2,13 +2,13 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen'
-import {easyData} from './easyData'
-import {easyDataAnswers} from './easyDataAnswers'
+import {testPageData} from './testPageData'
+import {testPageDataAnswers} from './testPageDataAnswers'
 import '../App.css';
 import Popup from '../popup/popup'
 
-function Easy({name}){
-  const [questions ,setQuestions] = React.useState(easyData);
+function TestPage({name}){
+  const [questions ,setQuestions] = React.useState(testPageData);
   const openClosepopUp = (index , status = true) => {
     console.log("234")
     let questionsArr = [...questions];
@@ -21,7 +21,7 @@ function Easy({name}){
     <Router>
       <Switch>
 
-        <Route path="/easy" exact><p></p>
+        <Route path="/test" exact><p></p>
         
         <Button><Link to="/diff" style={{ textDecoration: 'none' }}>Choose Your Difficulty</Link></Button> <p></p>
             
@@ -37,7 +37,7 @@ function Easy({name}){
                       setQuestions(questionsArr)
                     }} className="textField" /> <p> </p>
                     <button className="btn-css" onClick={() => {
-                      if(data.ans && easyDataAnswers[key].val === data.ans){
+                      if(data.ans && testPageDataAnswers[key].val === data.ans){
                         alert("You got the answer right. \n        Good job!")
                       }else {
                         alert("You got the answer wrong. \n        Please try again")
@@ -60,4 +60,4 @@ function Easy({name}){
   )
 }
 
-export default Easy
+export default TestPage
