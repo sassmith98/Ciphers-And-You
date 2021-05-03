@@ -1,16 +1,15 @@
 export const testPageDataAnswers = 
 [
     {
-        'val' : 'TEST'
-      },  
-      
-      {
-        'val' : 'TEST'
-      },
-    
-      {
-        'val' : 'TEST'
-      },
-      
-  
+        'val' : 'RANDOM ANSWER 1'
+    },
+
+    {
+      'val' : 'RANDOM ANSWER 2'
+    },
+
+    {
+      'val' : 'RANDOM ANSWER 3'
+    }
+
 ]

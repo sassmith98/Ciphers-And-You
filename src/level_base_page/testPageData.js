@@ -1,17 +1,18 @@
+
+
 export const testPageData = 
 [
     {
-        'val' : 'Level 1: TEST',
-
-      },  
-      
-      {
-        'val' : 'Level 2: TEST',
-
-      },
+        'val' : 'RANDOM 1'
     
-      {
-        'val' : 'Level 3: TEST',
+    },
 
-      },
+    {
+        'val' : 'RANDOM 2'
+    },
+
+    {
+        'val' : 'RANDOM 3'
+    }
+
 ]
