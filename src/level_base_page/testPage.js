@@ -16,6 +16,9 @@ function TestPage({name}){
     setQuestions(questionsArr)
   }
 
+  // let randomArray = questionsArr[Math.floor(Math.random() * questionsArr.length)];
+  // console.log(randomArray);
+
   return(
     <Router>
       <Switch>
