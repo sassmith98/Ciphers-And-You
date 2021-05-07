@@ -43,9 +43,7 @@ function RandomPage({name}) {
               }}>Check Answer (Lowercase only) 
               </button><p> </p>
               {randomElement.hasOwnProperty('show') && randomElement["show"] && <Popup image={randomElement.img} closePopup={() => openClosepopUp(index, false)}/>}
-              <a href="javaScript:void(0)" style={{textDecoration: 'none'}} onClick={() => openClosepopUp(index)}>Need
-                Some Help?
-              </a> <p> </p>
+              <a href="javaScript:void(0)" style={{textDecoration: 'none'}} onClick={() => openClosepopUp(index)}>Need Some Help?</a> <p> </p>
             </div>
         </Route>
         <Route path="/diff" exact component={DifficultyScreen}/>

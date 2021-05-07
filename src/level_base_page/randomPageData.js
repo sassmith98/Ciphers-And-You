@@ -2,7 +2,6 @@ export const randomPageData =
 [
     {
         'val' : 'RANDOM 1'
-    
     },
 
     {

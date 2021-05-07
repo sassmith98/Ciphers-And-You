@@ -14,7 +14,6 @@ function Easy({name}){
     let questionsArr = [...questions];
     questionsArr[index]["show"] = status
     setQuestions(questionsArr)
-
   }
 
   return(

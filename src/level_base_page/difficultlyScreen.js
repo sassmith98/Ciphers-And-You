@@ -33,7 +33,7 @@ function difficultyScreen() {
 
         <Route path="/" component={App} exact/>
 
-        {/* Another way of declaring Route if you want to pass props inside the component */}
+        {/* Route to pass props inside the component */}
         <Route
           path='/easy'
           render={(props) => (
