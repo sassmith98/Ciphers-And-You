@@ -1,4 +1,4 @@
-export const testPageData = 
+export const randomPageData = 
 [
     {
         'val' : 'RANDOM 1'

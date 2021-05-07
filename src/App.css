@@ -66,10 +66,10 @@ a:hover {
 
 .App-header {
   background-color: #03738f;
-  border-style: solid;
   opacity: .8;
   padding: 10px;
   border-radius: 8px;
+  border-color: rgb(7, 72, 194);
   display: inline-block;
   background: #ffffff;
   background-clip: padding-box;
@@ -83,10 +83,10 @@ a:hover {
 
 .App-subheader {
   background-color: #03738f;
-  border-style: solid;
   opacity: .8;
   padding: 5px;
   border-radius: 8px;
+  border-color: rgb(7, 72, 194);
   background: #ffffff;
   background-clip: padding-box;
   display: inline-block;
@@ -95,13 +95,13 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: calc(50px + 1vmin);
+  font-size: calc(25px + 1vmin);
   color: rgb(7, 72, 194);
 }
 
 .App-navigation {
   background-color: #ffffff;
-  min-height: 56.5vh;
+  min-height: 59.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;

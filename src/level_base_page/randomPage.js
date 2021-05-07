@@ -2,13 +2,13 @@ import React, {useEffect} from 'react';
 import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 import {Button} from "react-bootstrap";
 import DifficultyScreen from './difficultlyScreen';
-import {testPageData} from './testPageData';
-import {testPageDataAnswers} from './testPageDataAnswers';
+import {randomPageData} from './randomPageData';
+import {randomPageDataAnswers} from './randomPageDataAnswers';
 import '../App.css';
 import Popup from '../popup/popup';
 
-function TestPage({name}) {
-  const [questions, setQuestions] = React.useState(testPageData);
+function RandomPage({name}) {
+  const [questions, setQuestions] = React.useState(randomPageData);
   const openClosepopUp = (index, status = true) => {
     console.log("234");
     let questionsArr = [ ...questions ];
@@ -16,17 +16,13 @@ function TestPage({name}) {
     setQuestions(questionsArr);
   };
 
-  let randomElement = {};
-  let index = 0;
-  useEffect(() => {
-    randomElement = questions[Math.floor(Math.random() * questions.length)];
-    index = questions.indexOf(randomElement);
-  }, [questions]);
+  const randomElement = questions[Math.floor(Math.random() * questions.length)];
+  const index = questions.indexOf(randomElement);
 
   return (
     <Router>
       <Switch>
-        <Route path="/testPage" exact> <p></p>
+        <Route path="/randomPage" exact> <p></p>
           <Button> 
             <Link to="/diff" style={{textDecoration: 'none'}}>Choose Your Difficulty</Link>
           </Button> <p> </p>
@@ -39,7 +35,7 @@ function TestPage({name}) {
                 setQuestions(questionsArr)
               }} className="textField"/> <p> </p>
               <button className="btn-css" onClick={() => {
-                if (randomElement.ans && testPageDataAnswers[index].val === randomElement.ans) {
+                if (randomElement.ans && randomPageDataAnswers[index].val === randomElement.ans) {
                   alert("You got the answer right. \n        Good job!")
                 } else {
                   alert("You got the answer wrong. \n        Please try again")
@@ -58,4 +54,4 @@ function TestPage({name}) {
   )
 }
 
-export default TestPage
+export default RandomPage
